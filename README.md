@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛠️ Rekaz Mini Website Builder
 
-## Getting Started
+A drag-and-drop web builder built with Next.js, TypeScript, and Tailwind CSS. Users can add and edit website sections live with instant preview.
 
-First, run the development server:
+## 🚀 Features
+
+- Live section editing (title, description, image)
+- Multiple layout options for Hero section (Split, Centered, Background)
+- Responsive design with animations using Framer Motion
+- Import/export section structure (coming soon)
+- Custom background and font styles
+
+## 📸 Screenshots
+
+### Landing Page
+![Landing Page](screenshots/landing.png)
+
+### Builder Editor
+![Builder Editor](screenshots/editor.png)
+
+## 🧱 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## 🧪 How to Run Locally
 
 ```bash
+git clone https://github.com/NoufMishal8/rekaz-test.git
+cd rekaz-test
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

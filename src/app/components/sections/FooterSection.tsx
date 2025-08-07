@@ -18,7 +18,7 @@ export default function FooterSection({ data, onEdit, onDelete }: Props) {
     <div className="p-4 border border-white/10 bg-white/5 rounded-lg">
       <footer className="bg-gradient-to-r from-[#f3a683] to-[#fcd5b5] text-[#3C2A1E] p-6 rounded-lg">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          {/* Left side: Text + Icons */}
+       
           <div className="text-center md:text-left space-y-2">
             {data.title && <h2 className="text-lg font-bold">{data.title}</h2>}
             {data.description && <p className="text-sm">{data.description}</p>}
@@ -30,7 +30,7 @@ export default function FooterSection({ data, onEdit, onDelete }: Props) {
             <p className="text-sm text-[#3C2A1E]/70">© 2025 Rekaz. All rights reserved.</p>
           </div>
 
-          {/* Right side: Uploaded image */}
+         
           {data.imageUrl && (
             <img
               src={data.imageUrl}

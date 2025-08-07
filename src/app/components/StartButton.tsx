@@ -28,7 +28,7 @@ export default function StartButton({ onClick }: { onClick: () => void }) {
     {hovered &&
   Array.from({ length: 20 }).map((_, i) => {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    const offset = 100; // spread distance in %
+    const offset = 100; 
 
     return (
       <motion.span
