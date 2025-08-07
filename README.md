@@ -16,7 +16,7 @@ A drag-and-drop web builder built with Next.js, TypeScript, and Tailwind CSS. Us
 ![Landing Page](screenshots/landing.png)
 
 ### Builder Editor
-![Builder Editor](screenshots/editor.jpg)
+![Builder Editor](screenshots/editor.png)
 
 ## 🧱 Tech Stack
 
