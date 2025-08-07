@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-gradient-to-br from-[#fff4e6] to-[#ffe8d9] text-[#3a2e2e];
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(243, 166, 131, 0.4); 
+  border-color: transparent;
+}
+
+.btn {
+  @apply bg-gradient-to-r from-[#f3a683] to-[#fcd5b5] text-white font-semibold py-2 px-4 rounded hover:bg-[#e89672] transition;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white font-semibold py-2 px-4 rounded hover:bg-red-600 transition;
+}
+
+
+input,
+textarea {
+  @apply bg-white/10 text-white border border-white/20 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.glass-card {
+  @apply bg-[#fff0e1] border border-[#fcd5b5] p-4 rounded-xl shadow-md;
+}
+
+.heading {
+  @apply text-xl font-bold text-[#3C2A1E] mb-2;
+}
+
+.subtext {
+  @apply text-sm text-[#7C5D4A];
+}
+
+
+.section-box {
+  @apply p-4 bg-white rounded-lg shadow-md border border-gray-300 mb-4 hover:scale-[1.01] transition cursor-pointer;
+}
+
+.section-box.selected {
+  @apply ring-2 ring-primary;
+}
+
+
+*:focus,
+*:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+a:focus,
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(243, 166, 131, 0.4);
+  border-radius: 4px;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
